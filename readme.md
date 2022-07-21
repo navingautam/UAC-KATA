@@ -14,7 +14,7 @@ function findAllIndices(stringToCheck, specifiedValue) {
 }
 ```
 
-**Example outputs**
+##### Example outputs
 
 findAllIndices('the fox jumps over the dog', 'the')
 
@@ -40,7 +40,7 @@ function intersect(listOfArrays) {
 }
 ```
 
-**Example outputs**
+##### Example outputs
 
 intersect([[7, 3, 6, 10], [9, 10, 3]])
 
@@ -68,7 +68,7 @@ const isMonotonic = (array) => {
 };
 ```
 
-**Example outputs**
+##### Example outputs
 
 **monotonic**
 []

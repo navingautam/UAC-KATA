@@ -14,18 +14,22 @@ function findAllIndices(stringToCheck, specifiedValue) {
 }
 ```
 
-**_Example outputs_**
+**Example outputs**
 
 findAllIndices('the fox jumps over the dog', 'the')
+
 // expecting [0, 19]
 
 findAllIndices('the fox jumps over the dog', 'brown')
+
 // expecting []
 
 findAllIndices('the fox jumps over the dog', 'o')
+
 // expecting [5, 14, 24]
 
 findAllIndices('the fox jumps over the dog', ' ');
+
 // expecting [3, 7, 13, 18, 22]
 
 #### A function to get the intersection of a list of arrays
@@ -36,18 +40,22 @@ function intersect(listOfArrays) {
 }
 ```
 
-**_Example outputs_**
+**Example outputs**
 
 intersect([[7, 3, 6, 10], [9, 10, 3]])
+
 // return [10, 3]
 
 intersect([[9, 10, 3], [7, 3, 6, 10], [3, 7]])
+
 // return [3]
 
 intersect([[2, 3], [4, 5]])
+
 // return []
 
 intersect([[2, 3, 5]])
+
 // return [2, 3, 5]
 
 #### A function that checks if an array of integers is monotonic
@@ -60,21 +68,34 @@ const isMonotonic = (array) => {
 };
 ```
 
-**_Example outputs_** \***\*monotonic\*\***
+**Example outputs**
+
+**monotonic**
 []
+
 [1]
+
 [1, 2]
+
 [1, 1, 1, 1, 1, 1]
+
 [1, 1, 2, 2, 3, 4, 4, 5]
+
 [5, 4, 4, 3, 2, 2, 1, 0, 0, -1]
+
 [-1, -5, -10, -1100, -1100, -1101, -2000]
+
 [1, 5, 10, 1100, 1101, 1102, 2000]
 
-\***\*NOT monotonic\*\***
+**NOT monotonic**
 [1, 2, 4, 3]
+
 [5, 5, 4, 3, 3, 1, 2, 0]
+
 [-1, -5, -10, -1100, -900, -1101, -1102, -2000]
+
 [1, 2, 0]
+
 [1, 1, 2, 3, 4, 5, 5, 5, 6, 7, 8, 7, 9, 10, 11]
 
 ## Solution
